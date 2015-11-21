@@ -14,6 +14,8 @@
 		5CED8D651BFF769D00983B4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CED8D631BFF769D00983B4C /* LaunchScreen.storyboard */; };
 		5CED8D701BFF769D00983B4C /* PingAppAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CED8D6F1BFF769D00983B4C /* PingAppAnimationTests.swift */; };
 		5CED8D7B1BFF769D00983B4C /* PingAppAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CED8D7A1BFF769D00983B4C /* PingAppAnimationUITests.swift */; };
+		5CED8D8B1BFF83CF00983B4C /* NavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CED8D8A1BFF83CF00983B4C /* NavigationControllerDelegate.swift */; };
+		5CED8D8D1BFF84F400983B4C /* CircleTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CED8D8C1BFF84F400983B4C /* CircleTransitionAnimator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		5CED8D761BFF769D00983B4C /* PingAppAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PingAppAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CED8D7A1BFF769D00983B4C /* PingAppAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingAppAnimationUITests.swift; sourceTree = "<group>"; };
 		5CED8D7C1BFF769D00983B4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CED8D8A1BFF83CF00983B4C /* NavigationControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllerDelegate.swift; sourceTree = "<group>"; };
+		5CED8D8C1BFF84F400983B4C /* CircleTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleTransitionAnimator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		5CED8D591BFF769D00983B4C /* PingAppAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				5CED8D8C1BFF84F400983B4C /* CircleTransitionAnimator.swift */,
+				5CED8D8A1BFF83CF00983B4C /* NavigationControllerDelegate.swift */,
 				5CED8D5A1BFF769D00983B4C /* AppDelegate.swift */,
 				5CED8D5C1BFF769D00983B4C /* ViewController.swift */,
 				5CED8D5E1BFF769D00983B4C /* Main.storyboard */,
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CED8D8B1BFF83CF00983B4C /* NavigationControllerDelegate.swift in Sources */,
+				5CED8D8D1BFF84F400983B4C /* CircleTransitionAnimator.swift in Sources */,
 				5CED8D5D1BFF769D00983B4C /* ViewController.swift in Sources */,
 				5CED8D5B1BFF769D00983B4C /* AppDelegate.swift in Sources */,
 			);
